@@ -1,0 +1,58 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.modal.active{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: all;
+}
+.modalContent{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.modalContent.active{
+    transform: scale(1);
+}
+.customInputs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.customInputs input{
+    width: 380px !important;
+    height: 40px !important;
+    background-color: white !important;
+    border: solid 1px black !important;
+}
+.customInputs input:hover{
+    background-color: #dcdcdc !important;
+}
+.button{
+    margin-top: 10px !important;
+    height: 50px !important;
+    width: 100px !important;
+    transition: 0.5s !important;
+}
+.button:hover{
+    background-color: hsl(180, 100%, 30.5%) !important;
+    border: solid 2px red;
+}

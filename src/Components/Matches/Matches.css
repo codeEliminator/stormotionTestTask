@@ -1,0 +1,36 @@
+.matchStick{
+    height: 200px;
+    width: 120px;
+}
+.matches{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(180, 100%, 30.5%), rgba(0, 0, 0, 0.7), grey);
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    -webkit-box-shadow: 0px 0px 19px -10px rgba(0, 0, 0, 0.01);
+    -moz-box-shadow: 0px 0px 19px -10px rgba(0,0,0,0.01);
+    box-shadow: 0px 0px 19px -10px rgba(0,0,0,0.01);
+}
+.amountMatches{
+    display: flex;
+    flex-direction: row;
+}
+.amountMatches div{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    max-width: 500px;
+    height: 210px;
+}
+.totalMatches{
+    font-size: 22px;
+    color: white;   
+}

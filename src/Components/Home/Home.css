@@ -1,0 +1,26 @@
+.homeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 150px;
+}
+.actionContent{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actionContent input{
+    height: 75px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+.actionContent input:hover {
+    background-color: #a0a0a0;
+}

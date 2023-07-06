@@ -1,0 +1,20 @@
+.gameWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+.gameWrapper div{
+    margin: 5px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.matchesLeft{
+    font-size: 24px;
+    color: white;
+}
