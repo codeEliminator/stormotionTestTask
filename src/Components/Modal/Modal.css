@@ -9,7 +9,7 @@
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-    transition: 0.5s;
+    transition: 1s;
 }
 .modal.active{
     opacity: 1;
